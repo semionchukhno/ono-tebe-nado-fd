@@ -6,21 +6,15 @@
     
 
 .header {
- 
-    width: 1100px;
-    height: 293px;
+    display: grid;
+    place-items: center start; 
+
+    height: 100vh; /* Высота экрана */
 }
 
 .header__logo {
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    width: 148px;
-    min-height: 105px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 180px;
+    width: 150px; /* Установите ширину логотипа */
+    height: auto; /* Сохраняет пропорции изображения */
 }
 
 .logo {
@@ -39,7 +33,7 @@ color: red;
 
 
 .cover {
-    /* background-image: url('../images/cover.jpg'); */
+    background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -70,11 +64,12 @@ color: red;
 
 
 .cover-description {
-    
+    color: white;
+    font-size: 22px;
 }
 
 .button-cover {
-    
+
 }
 
 .lots {
