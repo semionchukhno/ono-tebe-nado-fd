@@ -1,10 +1,21 @@
 /* место для вашего кода */
 .body {
+
+
+
+    
     
 }
 
 .header {
+    width: 1100px;
+    height: 293px;
+}
+
+.header__logo {
     
+    width: 10px;
+     height: 10px;
 }
 
 .logo {
@@ -12,6 +23,7 @@
 }
 
 .nav {
+color: red;
     
 }
 
@@ -19,9 +31,29 @@
     
 }
 
+
+
 .cover {
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 1100px;
+    min-height: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 180px;
+
     
 } 
+
+.cover-title {
+   color: white;
+    font-size: 115px;
+}
+
+
 
 .main {
     
@@ -41,7 +73,8 @@
 }
 
 .lots {
-    
+    width: 1052px;
+    height: 723px;
 }
 
 .cards {
@@ -51,6 +84,11 @@
 
 .view-more {
     
+}
+
+.about {
+    width: 1052px;
+    height: 595px;
 }
 
 .logo-container {
@@ -63,7 +101,8 @@
 }
 
 .footer {
-    
+    width: 1100px;
+    height: 180px;
 }
 
 .social-media {
