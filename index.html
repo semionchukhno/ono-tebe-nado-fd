@@ -10,23 +10,29 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body> 
-      <header class="header">
-        <!-- Логотип -->
-        <!-- Меню навигации -->
-        <nav class="header-nav">
-          <ul>
-            <li><a href="#">главная</a></li>
-            <li><a href="#lots">лоты</a></li>
-            <li><a href="#about">об аукционе</a></li>
-          </ul>
-        </nav>
-        <img src="images/logo-black.svg" alt="Логотип аукциона" class="header-logo">
-      <!-- Контактная информация -->
-      <address class="header-contacts">
-        <a href="tel:+9 999 555 555">+9 999 555 555</a><br>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>наб. Принсенграхт 263-<br>265, Амстердам
+    <header class="header">
+      <nav class="header-menu">
+        <ul class="header-links-list">
+          <li class="header-links-list-item header-links-list-item-no-bullit">
+            <a href="#" class="header-link header-link-active">главная</a>
+          </li>
+          <li class="header-links-list-item">
+            <a href="#lots" class="header-link">лоты</a>
+          </li>
+          <li class="header-links-list-item">
+            <a href="#about" class="header-link">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header-logo">
+        <img src="images/logo-black.svg" alt="Логотип аукциона" class="header-logo-image">
+      </a>
+      <address class="header-address">
+        <a href="tel:+9 999 555 555" class="header-link">+9 999 555 555</a><br>
+        <a href="mailto:info@sobaka.ge" class="header-link">info@sobaka.ge</a><br>наб. Принсенграхт 263-<br>265, Амстердам
       </address>
-        </header>
+    </header>
+    
         <!-- основной контент  -->
         <main>
         <section class="cover">
@@ -96,7 +102,7 @@
     <!-- Подвал -->
     <footer class = "footer"> </footer>
     <!-- Навигация -->
-    <nav>
+    <nav class="footer-menu">
       <ul>
           <li><a href="#">главная</a></li>
           <li><a href="#lots">лоты</a></li>
@@ -104,7 +110,7 @@
       </ul>
   </nav>
   <!-- Адрес -->
-    <address> 
+    <address class="footer-address"> 
       <a href="tel:+9 999 555 555">+9 999 555 555</a><br>
       <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
     наб. Принсенграхт 263-265,<br>
