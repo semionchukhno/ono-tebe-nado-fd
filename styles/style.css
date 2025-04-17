@@ -1,83 +1,71 @@
 /* место для вашего кода */
 .body {
-    
 }
 
-    
-    
-
 .header {
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-    padding: 92px 50px 96px 50px;
-  }
-  
-  .header-menu {
-    justify-self: start;
-    /* padding-left: 50px; */
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
 
-  }
-  
-  .header-links-list {
-    display: flex;
-    gap: 32px;
-    list-style: circle;
-    /* margin: 0;
+.header-menu {
+  justify-self: start;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  /* margin: 0;
     padding: 0; */
-    white-space: nowrap; /* Запретить перенос строк */
-  }
-  
-  
-  
-  .header-links-list-item {
+  white-space: nowrap;
+}
 
-  }
+.header-links-list-item {
+}
 
-  .header-links-list-item-no-bullit {
-    list-style: none;   
-    
+.header-links-list-item-no-bullit {
+  list-style: none;
+}
 
-  }
-  
-  .header-link {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-  }
-  
-  .header-logo {
-    display: block;
-    width: 148px;
-    height: 105px;
-    justify-self: center;
-  }
-  
-  .header-logo-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .header-address {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-    padding: 0;
-    justify-self: end;
-    text-align: left;
-    padding-left: 50px;
-    height: 98px;
-    max-width: 240px;
-  }
-  
+.header-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.header-logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  justify-self: center;
+}
+
+.header-logo-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-address {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-self: end;
+  text-align: left;
+  padding-left: 50px;
+  height: 98px;
+  max-width: 240px;
+}
+
 .cover {
   position: relative;
   width: 100%;
   height: 757px;
   width: 1100px;
-  background: url('../images/cover.jpg');
+  background: url("../images/cover.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -88,43 +76,39 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6); /* полупрозрачный слой */
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
 .cover-title {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    color: #fff;
-    font-size: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.15;
-    width: 100%;
-    margin-bottom: 106px;
-    padding-left: 50px;
-    padding-top: 165px;
-    z-index: 2;
-  }
-  
-  .aligned-text_left {
-    text-align: left;
-    padding-left: 0;
-  }
-  
-  .aligned-text_center {
-    text-align: center;
-    margin-left: 44px;
-  }
-  
-  .aligned-text_right {
-    text-align: right;
-    padding-right: 50px;
-    
-  }
-  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  font-size: 100px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.15;
+  width: 100%;
+  margin-bottom: 106px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 165px;
+  z-index: 2;
+}
+
+.aligned-text-left {
+  text-align: left;
+}
+
+.aligned-text-center {
+  text-align: center;
+}
+
+.aligned-text-right {
+  text-align: right;
+}
 
 .letter-spacing-extended {
   letter-spacing: 0.2em;
@@ -135,110 +119,88 @@
 }
 
 .cover-description {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
-    gap: 79px;
-    /* padding: 0 50px 55px 78px; */
-    padding-top: 0px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 32px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 79px;
+  /* padding: 0 50px 55px 78px; */
+  padding-top: 0px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 32px;
+}
 
-  }
+.cover-description-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 637px;
+  line-height: 28px;
+  word-spacing: 18px;
+  margin: 0;
+  text-transform: uppercase;
+}
 
-  .cover-description-text {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 637px;
-    line-height: 28px;
-    word-spacing: 18px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-
-
-  .bet-button {
-    width: 256px;
-    height: 51px;
-    border: 1px solid #fff;
-    background: transparent;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    font-size: 22px;
-    line-height: 51px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 0;
-    
-  }
+.bet-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  background: transparent;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 51px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+}
 
 .bet-button:hover {
-    background: white;
-  }
-
+  background: white;
+}
 
 .lots {
-    width: 1052px;
-    height: 723px;
+  width: 1052px;
+  height: 723px;
 }
 
 .cards {
-    
-}
-
+} 
 
 .view-more {
-    
 }
 
 .about {
-    width: 1052px;
-    height: 595px;
+  width: 1052px;
+  height: 595px;
 }
 
 .logo-container {
-    
 }
 
-
 .text-container {
-    
 }
 
 .footer {
-    width: 1100px;
-    height: 180px;
+  width: 1100px;
+  height: 180px;
 }
 
 .social-media {
-    
 }
 
-
-.footer__social-media-list {
-    
+.footer-social-media-list {
 }
 
-
-.footer__social-media-list-item {
-    
+.footer-social-media-list-item {
 }
 
-
-.footer__social-media-list-item-link {
-    
+.footer-social-media-list-item-link {
 }
 
-
-.footer__social-media-icon {
-    
+.footer-social-media-icon {
 }
-
-
