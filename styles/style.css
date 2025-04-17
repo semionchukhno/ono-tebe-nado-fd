@@ -49,10 +49,6 @@
     font-size: 18px;
   }
   
-  /* .header-link-active {
-    font-weight: bold;
-  } */
-  
   .header-logo {
     display: block;
     width: 148px;
@@ -92,7 +88,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* полупрозрачный слой */
+  background: rgba(0, 0, 0, 0.6); /* полупрозрачный слой */
   z-index: 1;
 }
 
@@ -139,43 +135,53 @@
 }
 
 .cover-description {
-  position: relative;
-  z-index: 2;
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 79px;
+    /* padding: 0 50px 55px 78px; */
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 32px;
 
-.cover-description-text {
-  color: #fff;
-  font-size: 20px;
-  margin-bottom: 24px;
-}
+  }
 
-.bet-button {
-  /* background:; */
-  background: none;
-  font-family: Raleway, sans-serif;
-  font-weight: 500px;
-  color: white;
-  line-height: 100%;
-  padding-left: 31px;
-  padding-top: 12px;
-  padding-bottom: 11px;
-  padding-right: 32px;
-  border: none;
-  border: 1px solid white;
-  font-size: 22px;
-  text-transform: uppercase;
-  
-  
+  .cover-description-text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 637px;
+    line-height: 28px;
+    word-spacing: 18px;
+    margin: 0;
+    text-transform: uppercase;
+  }
 
-}
+
+
+  .bet-button {
+    width: 256px;
+    height: 51px;
+    border: 1px solid #fff;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 51px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0;
+    
+  }
 
 .bet-button:hover {
-  /* background: #f0f0f0; */
-}
+    background: white;
+  }
 
 
 .lots {
