@@ -21,8 +21,6 @@
   list-style: circle;
 }
 
-.header-links-list-item {
-}
 
 .header-links-list-item-no-bullit {
   list-style: none;
@@ -263,86 +261,107 @@
 
 /* About Section */
 
-.about__title {
-  font-size: 40px;
-  padding-top: 136px;
-  /* padding-left: 72px; */
-}
 
 .about {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  height: 595px;
-  max-width: 1100px;
+  grid-template-columns: min-content 1fr;
+  margin: auto;
+  max-height: 595px;
+  min-height: 595px;
+  max-width: 1052px;
   margin-top: 120px;
   
 }
 
 .about__column {
-width: 693px;
-height: 449px;
-margin-top: 136px;
-margin-left: 25px;
-
-
-
+  width: 693px;
+  height: 449px;
+  margin-top: 136px;
+  margin-left: 25px;
 }
 
 .about__logo {
-  margin-left: 47px;
-  margin-right: 72px;
-  margin-top: 155px;
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-
-  
 }
 .about__logo-image {
-  margin-top: 65px;
-  margin-left: 50px;
   width: 148px;
   height: 114px;
 }
+.about__title {
+  font-size: 40px;
+  padding-left: 72px;
+}
 
 .about__text__1 {
-padding-top: 100px;
-font-size: 20px;
-font-family: "Raleway", sans-serif;
-text-wrap-style: balance;
-
-
-
-
+  padding-top: 100px;
+  padding-left: 72px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-wrap-style: balance;
 }
 .about__text__2 {
-padding-top: 24px;
-font-size: 20px;
-font-family: "Raleway", sans-serif;
-text-wrap-style: balance;
-
+  padding-top: 24px;
+  padding-left: 72px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-wrap-style: balance;
 }
-
 
 .footer {
   display: grid;
-  width: 1100px;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   height: 180px;
+  width: 1100px;
   margin-top: 180px;
 }
 
-.social-media {
+.footer__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 180px; /* как в макете */
+}
+  
+
+
+
+.footer__menu-list {
+  
+  justify-self: center;
 }
 
-.footer-social-media-list {
+.footer__menu-list-item {
 }
 
-.footer-social-media-list-item {
+.footer__menu-link {
 }
 
-.footer-social-media-list-item-link {
+.footer__menu-link_active {
 }
 
-.footer-social-media-icon {
+.address {
+  justify-self: start;
+}
+
+.footer__social-list {
+}
+
+.footer__social-list-item {
+}
+
+.footer__social-link {
+}
+
+.footer__social-icon {
 }
