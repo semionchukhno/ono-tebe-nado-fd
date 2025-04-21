@@ -64,7 +64,6 @@
   width: 1100px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
-
   flex-direction: column;
   justify-content: center;
 }
